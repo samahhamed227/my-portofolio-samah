@@ -49,7 +49,7 @@ ReactDOM.render(
         exact
         render={props => <Register {...props} />}
       />
-      <Redirect to="/" />
+         <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
